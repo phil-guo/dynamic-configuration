@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="maruko" Version="1.0.3" />-->
+    <!--<PackageReference Include="Maruko.Core.AutoMapper" Version="1.0.3" />-->
+    <!--<PackageReference Include="Maruko.Core.FreeSql" Version="1.0.3" />-->
+    <!--<PackageReference Include="Maruko.Core.Web" Version="1.0.3" />-->
+    <PackageReference Include="Maruko.Zero" Version="1.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Dockerfile">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

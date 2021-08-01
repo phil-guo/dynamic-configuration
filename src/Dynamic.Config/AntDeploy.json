@@ -1,0 +1,150 @@
+﻿{
+  "Env": [
+    {
+      "Name": "后台",
+      "ServerList": [],
+      "LinuxServerList": [
+        {
+          "UserName": "root",
+          "Pwd": "7CB753836DF0A48E9D36268489029E16",
+          "Host": "120.55.103.91",
+          "NickName": "",
+          "IIsFireUrl": null,
+          "DockerFireUrl": "",
+          "WindowsServiceFireUrl": null,
+          "LinuxServiceFireUrl": null
+        }
+      ],
+      "IgnoreList": [],
+      "WindowsBackUpIgnoreList": []
+    },
+    {
+      "Name": "8.140.2.98",
+      "ServerList": [],
+      "LinuxServerList": [
+        {
+          "UserName": "root",
+          "Pwd": "7CB753836DF0A48E9D36268489029E16",
+          "Host": "8.140.2.98",
+          "NickName": "",
+          "IIsFireUrl": null,
+          "DockerFireUrl": "",
+          "WindowsServiceFireUrl": null,
+          "LinuxServiceFireUrl": null
+        }
+      ],
+      "IgnoreList": [],
+      "WindowsBackUpIgnoreList": []
+    }
+  ],
+  "IIsConfig": {
+    "SdkType": null,
+    "WebSiteName": "",
+    "LastEnvName": null,
+    "EnvPairList": [
+      {
+        "EnvName": "后台",
+        "ConfigName": "",
+        "LinuxEnvParam": null,
+        "DockerPort": null,
+        "DockerEnvName": null,
+        "DockerVolume": null,
+        "DockerOther": null
+      },
+      {
+        "EnvName": "8.140.2.98",
+        "ConfigName": "",
+        "LinuxEnvParam": null,
+        "DockerPort": null,
+        "DockerEnvName": null,
+        "DockerVolume": null,
+        "DockerOther": null
+      }
+    ]
+  },
+  "WindowsServiveConfig": {
+    "ServiceName": "",
+    "SdkType": null,
+    "LastEnvName": null,
+    "EnvPairList": [
+      {
+        "EnvName": "后台",
+        "ConfigName": "",
+        "LinuxEnvParam": null,
+        "DockerPort": null,
+        "DockerEnvName": null,
+        "DockerVolume": null,
+        "DockerOther": null
+      },
+      {
+        "EnvName": "8.140.2.98",
+        "ConfigName": "",
+        "LinuxEnvParam": null,
+        "DockerPort": null,
+        "DockerEnvName": null,
+        "DockerVolume": null,
+        "DockerOther": null
+      }
+    ]
+  },
+  "LinuxServiveConfig": {
+    "ServiceName": "",
+    "EnvParam": "",
+    "LastEnvName": null,
+    "EnvPairList": [
+      {
+        "EnvName": "后台",
+        "ConfigName": "",
+        "LinuxEnvParam": null,
+        "DockerPort": null,
+        "DockerEnvName": null,
+        "DockerVolume": null,
+        "DockerOther": null
+      },
+      {
+        "EnvName": "8.140.2.98",
+        "ConfigName": "",
+        "LinuxEnvParam": null,
+        "DockerPort": null,
+        "DockerEnvName": null,
+        "DockerVolume": null,
+        "DockerOther": null
+      }
+    ]
+  },
+  "DockerConfig": {
+    "Prot": "8099:80",
+    "AspNetCoreEnv": "",
+    "LastEnvName": "后台",
+    "RemoveDaysFromPublished": "10",
+    "Volume": "/home/uploads:/app/uploads",
+    "Other": "",
+    "EnvPairList": [
+      {
+        "EnvName": "后台",
+        "ConfigName": null,
+        "LinuxEnvParam": null,
+        "DockerPort": "8099:80",
+        "DockerEnvName": "",
+        "DockerVolume": "/home/uploads:/app/uploads",
+        "DockerOther": ""
+      },
+      {
+        "EnvName": "8.140.2.98",
+        "ConfigName": null,
+        "LinuxEnvParam": null,
+        "DockerPort": "8099:80",
+        "DockerEnvName": "",
+        "DockerVolume": "/home/uploads:/app/uploads",
+        "DockerOther": ""
+      }
+    ]
+  },
+  "DockerRegisterConfig": {
+    "RepositoryUrl": null,
+    "RepositoryUserName": null,
+    "RepositoryUserPwd": null,
+    "RepositoryNameSpace": null,
+    "RepositoryImageName": null
+  }
+}
