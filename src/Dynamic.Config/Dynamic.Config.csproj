@@ -9,7 +9,7 @@
     <!--<PackageReference Include="Maruko.Core.AutoMapper" Version="1.0.3" />-->
     <!--<PackageReference Include="Maruko.Core.FreeSql" Version="1.0.3" />-->
     <!--<PackageReference Include="Maruko.Core.Web" Version="1.0.3" />-->
-    <PackageReference Include="Maruko.Zero" Version="1.0.11" />
+    <PackageReference Include="Maruko.Zero" Version="1.0.12" />
   </ItemGroup>
 
   <ItemGroup>
